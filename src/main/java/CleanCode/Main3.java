@@ -8,11 +8,6 @@ public class Main3 {
         penguin.makeSound();
         sparrow.makeSound();
 
-        if (sparrow instanceof Flyable) {
-            ((Flyable) sparrow).fly();
-        }
-        if (penguin instanceof Flyable) {
-            ((Flyable) penguin).fly();
-        }
+       
     }
 }
