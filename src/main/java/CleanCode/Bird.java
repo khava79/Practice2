@@ -2,7 +2,7 @@ package CleanCode;
 //Задача: Перепроектируйте код так, чтобы классы-наследники не нарушали поведение базового класса.
 
 abstract class Bird {
-    private String name;
+    private final String name;
 
     public Bird(String name) {
         this.name = name;
