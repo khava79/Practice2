@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.StreamingLibrary;
 
 public class Video {
     private String id;

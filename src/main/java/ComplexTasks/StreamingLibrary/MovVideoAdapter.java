@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.StreamingLibrary;
 
 public class MovVideoAdapter implements VideoAdapter {
     public Video convertToMp4(String filePath) {

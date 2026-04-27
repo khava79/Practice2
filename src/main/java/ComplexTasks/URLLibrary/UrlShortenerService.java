@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.URLLibrary;
 
 public class UrlShortenerService {
     private final ShorteningStrategy strategy;

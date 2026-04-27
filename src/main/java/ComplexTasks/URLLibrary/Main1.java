@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.URLLibrary;
 
 public class Main1 {
     public static void main(String[] args) {

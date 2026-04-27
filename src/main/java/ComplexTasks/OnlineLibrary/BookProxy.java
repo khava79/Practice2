@@ -1,23 +1,16 @@
-package ComplexTasks;
+package ComplexTasks.OnlineLibrary;
 
-public class RealBook implements BookInterface {
+public class BookProxy implements BookInterface {
     private String title;
     private String author;
     private String description;
-    private String content;
+    private RealBook realBook;
 
-    public RealBook(String title, String author, String description) {
+    public BookProxy(String title, String author, String description) {
         this.title = title;
         this.author = author;
         this.description = description;
-        loadContent();
     }
-
-    public void loadContent() {
-        System.out.println("Loading content...");
-        this.content = "FULL BOOK TEXT";
-    }
-
 
     @Override
     public String getTitle() {
@@ -34,8 +27,10 @@ public class RealBook implements BookInterface {
         return description;
     }
 
-    @Override
     public String getContent() {
-        return content;
+        if (realBook == null) {
+            realBook = new RealBook(title, author, description);
+        }
+        return realBook.getContent();
     }
 }

@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.URLLibrary;
 
 public class ShortenerFactory {
     public static ShorteningStrategy create(String type) {

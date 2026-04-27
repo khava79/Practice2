@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.StreamingLibrary;
 
 public class WmvVideoAdapter implements VideoAdapter {
     public Video convertToMp4(String filePath) {

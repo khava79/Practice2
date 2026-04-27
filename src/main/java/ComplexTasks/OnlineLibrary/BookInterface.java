@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.OnlineLibrary;
 
 public interface BookInterface {
     String getTitle();

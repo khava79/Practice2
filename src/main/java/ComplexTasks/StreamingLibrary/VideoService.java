@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.StreamingLibrary;
 
 import java.util.HashMap;
 import java.util.Map;

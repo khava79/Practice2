@@ -1,4 +1,4 @@
-package ComplexTasks;
+package ComplexTasks.OnlineLibrary;
 
 public class Book {
     private String title;
