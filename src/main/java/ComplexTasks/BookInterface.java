@@ -1,0 +1,8 @@
+package ComplexTasks;
+
+public interface BookInterface {
+    String getTitle();
+    String getAuthor();
+    String getDescription();
+    String getContent();
+}
